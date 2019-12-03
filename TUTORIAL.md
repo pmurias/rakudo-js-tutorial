@@ -66,14 +66,7 @@ If you want to do so for browser use it's recommend you use the parcel bundler
 mkdir hello-world
 cd hello-world
 yarn init
-yarn add parcel@1.11.0 nqp-browser-runtime parcel-plugin-nqp parcel-plugin-perl6-async
-```
-
-```bash
-mkdir hello-world
-cd hello-world
-yarn init
-yarn add parcel@1.11.0 nqp-browser-runtime parcel-plugin-nqp parcel-plugin-perl6-async
+yarn add parcel@1.11.0 nqp-browser-runtime parcel-plugin-nqp parcel-plugin-async-perl6
 ```
 
 or
@@ -82,7 +75,7 @@ or
 mkdir hello-world
 cd hello-world
 npm init
-npm add parcel@1.11.0 nqp-browser-runtime parcel-plugin-nqp parcel-plugin-perl6-async
+npm add parcel@1.11.0 nqp-browser-runtime parcel-plugin-nqp parcel-plugin-async-perl6
 ```
 
 Should setup your project.
